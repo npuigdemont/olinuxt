@@ -43,14 +43,14 @@ export default {
                     name: 'Spice Oil with Fennel', 
                     description: 'Flavoured with a few bits of fennel, laurel leaves and chilli pepper', 
                     price: 15,
-                    photoURL: 'https://hortalagarriga.cat/wp-content/uploads/2020/10/cnt_57363a32038cf.png'
+                    photoURL: 'https://www.seeds-gallery.eu/7651-large_default/fennel-seed-sweet-fennel-fenkel.jpg'
                 },
                 { 
                     uuid: '973b3d42-e039-428a-b2ad-e6444b5895f4',
                     name: 'Spice Oil with Rosemary', 
                     description: 'Flavoured with rosemary, thyme leaves and pepper', 
                     price: 13,
-                    photoURL: 'https://bedouin-siwa.com/wp-content/uploads/2021/06/Rosemary.png'
+                    photoURL: 'https://www.ventos.com/images/stories/02035002.jpg'
                 },
                 {
                     uuid: '33d3332e-42ac-4692-8523-ae76c3d8a773',
@@ -62,7 +62,7 @@ export default {
                 { 
                     uuid: 'c70080cd-330f-4398-b169-03f057582e2a',
                     name: 'Spice Oil with Tyme', 
-                    description: 'Lorem ipsum dolor sit amet.', 
+                    description: 'Only a little bit spice with Tyme', 
                     price: 12,
                     photoURL: 'https://www.hoytapeo.com/wp-content/uploads/2020/11/aceite-picante-receta-1024x682.jpg'
                 }

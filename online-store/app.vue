@@ -1,5 +1,5 @@
 <template>
-  <div class="container mb-3">
+  <div class="container mt-3 mb-3">
     <Navigation />
     <Announcement />
     <NuxtPage />

@@ -1,12 +1,25 @@
 <template>
     <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+    <h2 class="accordion-header" id="headingZero">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseZero" aria-expanded="true" aria-controls="collapseZero">
+        HOW FAST IS SHIPPING?
+      </button>
+    </h2>
+    <div id="collapseZero" class="accordion-collapse collapse show" aria-labelledby="headingZero" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        We ship out new orders within 1-2 business days, and we send all packages via Seur so they'll reach their final destination 1-5 days from their ship date. Expedited service is also available as an option during checkout. We offer the ability to select your desired ship date if you'd like to schedule shipping for the future. Lastly, we have local pickup & courier delivery options - email us at mimmospizza@gmail.com to learn more. 
+      </div>
+    </div>
+  </div>
+
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
         HOW QUICKLY ARE YOU SHIPPING FOR THE HOLIDAYS?
       </button>
     </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
         <strong>We're proud of our super speedy shipping! </strong> Even during this busy holiday season, we're shipping orders within 1-2 days, and we'll always keep you updated if that changes. 
       </div>
@@ -42,7 +55,7 @@
         DO YOU OFFER SAME DAY LOCAL DELIVERY?
       </button>
     </h2>
-    <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
       <div class="accordion-body">
         <strong>No, sorry. </strong> The best we can do is we can sometimes ship same day for local delivery next day. We also offer local pickup at our fisical shop. 
       </div>
@@ -55,7 +68,7 @@
         CAN I PLACE A LARGE ORDER (FOR MY CLIENTS, EMPLOYEES, ETC)?
       </button>
     </h2>
-    <div id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
       <div class="accordion-body">
         <strong>Yes!  </strong> To begin this process, please email us a spreadsheet that contains shipping addresses (columns for Name, Address, City, State, Zip). Add in additional columns to indicate which gift box each recipient should receive, and what their gift note text should say. Send this information to us at mimmospìzza@gmail.com  
       </div>
@@ -68,7 +81,7 @@
         HOW DO I GET IN TOUCH?
       </button>
     </h2>
-    <div id="collapseSix" class="accordion-collapse collapse show" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
       <div class="accordion-body">
         <strong>Use our contact form  </strong> or send us an email at: mimmospìzza@gmail.com. You can also call us at (+34) 935 168 280.
 
@@ -76,6 +89,20 @@ If you've already placed an order with us and want to get in touch about that sp
       </div>
     </div>
   </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingSeven">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+        WHAT IS YOUR PRIVACY POLICY?
+      </button>
+    </h2>
+    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>We never share your name, email, or contact information with anyone - ever!  </strong>  
+      </div>
+    </div>
+  </div>
+
   </div>
 
 </template>

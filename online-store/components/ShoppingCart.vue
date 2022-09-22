@@ -34,7 +34,9 @@
             </div>
           </div>
         </div>
-
+<div class="off-canvas-body d-grid gap-2 col-6 mx-auto">
+  <button @click="checkout" class="btn btn-primary">Checkout</button>
+</div>
       </div>
     </div>
   </div>
